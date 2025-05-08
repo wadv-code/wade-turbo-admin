@@ -1,0 +1,14 @@
+packages:
+  - apps/*
+  - scripts/*
+  - packages/*
+  - backend
+
+onlyBuiltDependencies:
+  - '@biomejs/biome'
+  - '@nestjs/core'
+  - '@scarf/scarf'
+  - '@swc/core'
+  - bcrypt
+  - core-js
+  - esbuild
